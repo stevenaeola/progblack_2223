@@ -87,7 +87,14 @@
     <h1>Pasta</h1>
     <p class="fs-5 col-md-8">Students eat a lot of it</p>
 
-   
+    <marquee id="main"></marquee>
+
+    <script>
+      if(Math.random() > 0.5) {
+        document.getElementById("main").innerHTML = "Meatballs";
+        console.log("Meatballs");
+      }
+    </script>
   </main>
   <footer class="pt-5 my-5 text-muted border-top">
     Created in part by the Bootstrap team &middot; &copy; 2022
