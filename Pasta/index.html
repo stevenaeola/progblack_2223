@@ -10,7 +10,7 @@
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/starter-template/">
 
-    
+
 
     
 
@@ -18,6 +18,20 @@
 
 <link href="../Pasta/assets/css/index.css" rel="stylesheet">
 
+    <style>
+      body::before {
+        content: "";
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-image: url("https://www.cookipedia.co.uk/wiki/images/0/0d/Chorizo_pasta_recipe.jpg");
+        background-color: #cccccc;
+        filter: opacity(50%);
+      }
+    </style>
     
     <!-- Custom styles for this template -->
     <link href="starter-template.css" rel="stylesheet">
