@@ -39,16 +39,16 @@
   <body>
 
   <script>
-		if (Math.random() > 0.95) {
+		if (Math.random() > 0.90) {
 			window. addEventListener('DOMContentLoaded', (ignored) => {
-				document.body.innerHTML = "<marquee>" + document.body.innerHTML + "</marquee>";
+				document.body.innerHTML = "<marquee behavior='alternate' scrollamount=20>" + document.body.innerHTML + "</marquee>";
 			});
 		}
 	</script>
 
 <div class="col-lg-8 mx-auto p-4 py-md-5">
   <header class="d-flex align-items-center pb-3 mb-5 border-bottom">
-    <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
+    <a href="#" class="d-flex align-items-center text-dark text-decoration-none">
       <img width="128" alt="Tasty-pasta" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Tasty-pasta.svg/512px-Tasty-pasta.svg.png">
       <span class="fs-4">Pasta Appreciation Page</span>
     </a>
