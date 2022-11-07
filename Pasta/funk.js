@@ -28,7 +28,7 @@ h1.innerHTML="PASTA PASTA PASTA"
 let dictionary = document.getElementById("pasta_dictionary");
 let newDictElt = document.createElement("li");
 dictionary.appendChild(newDictElt);
-newDictElt.innerHTML = "Pasta wa originally made in China"
+newDictElt.innerHTML = "Pasta was originally made in China"
 
 let dElts = document.querySelectorAll("#pasta_dictionary > li")
 
