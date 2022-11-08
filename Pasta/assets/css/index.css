@@ -62,3 +62,7 @@
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
   }
+
+  body {
+    padding:0;
+  }
