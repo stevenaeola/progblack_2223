@@ -1,12 +1,12 @@
 {
-  "name": "examples",
+  "name": "pasta",
   "version": "1.0.0",
-  "description": "stuff for lectures",
-  "main": "server.js",
+  "description": "",
+  "main": "funk.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "s.p.bradley@durham.ac.uk",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2"
