@@ -15,3 +15,11 @@ app.get('/recipes', function(req, resp){
 
 })
 app.listen(8090);
+
+const path = require('path');
+const router = express.Router();
+
+router.get('/',function(req,res){
+  res.sendFile(path.join(__dirname+'/index.html'));
+  //__dirname should resolve to the project folder.
+});
