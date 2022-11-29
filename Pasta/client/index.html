@@ -14,7 +14,7 @@
 
     
 
-<link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
 <link href="assets/css/index.css" rel="stylesheet">
 
@@ -32,9 +32,6 @@
         filter: opacity(50%);
       }
     </style>
-    
-    <!-- Custom styles for this template -->
-    <link href="starter-template.css" rel="stylesheet">
   </head>
   <body>
 
@@ -57,7 +54,7 @@
   <main>
     <h1>Pasta</h1>
     <p class="fs-5 col-md-8">Students eat a lot of it</p>
-    <img src="../assets/images/spaghetti_twirl.png" alt="pasta being twirled round a fork above a plate">
+    <img src="assets/images/spaghetti_twirl.png" alt="pasta being twirled round a fork above a plate">
 
     <h2>Pasta World Records</h2>
     <h4>Longest Strand of Pasta</h4>
@@ -83,11 +80,16 @@
 
       </ul> 
     </P>
+
+    <h2>Dynamic Pasta Recipes</h2>
     <form id="recipe_search">
       <input name='recipe_search_key' type="text">
       <input id='recipe_search_submit' type="submit">Search for recipe</input>
     </form>
-    <div id="recipe_results"><ul id='recipeList'></ul></div>
+    <p>Click on one of the recipes for more details
+    <ul id='recipeList'></ul>
+    </p>
+    <div id="recipe_results"></div>
   </main>
   <footer class="pt-5 my-5 text-muted border-top">
     Created in part by the Bootstrap team &middot; &copy; 2022
@@ -95,7 +97,7 @@
 </div>
 
 
-    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
     <script src="funk.js"></script>
     <script src="recipe_search.js"></script>
 

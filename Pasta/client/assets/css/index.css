@@ -48,3 +48,8 @@
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
   }
+
+  .recipe_list_item {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+  }

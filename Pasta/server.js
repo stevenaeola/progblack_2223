@@ -8,10 +8,10 @@ const recipes =
 "bolognese" : "Meaty tomato good with spaghetti"
 }
 
-app.get('/recipe', function(req, resp){
-    const recipe = req.query.recipe;
+app.get('/recipe/:recipe', function(req, resp){
+    const recipe = req.params.recipe;
     let instructions = recipes[recipe];
-    resp.send(`<h1>This is a recipe for ${recipe}</h1><p>${instructions}</p>`)
+    resp.send(instructions);
 
 })
 
