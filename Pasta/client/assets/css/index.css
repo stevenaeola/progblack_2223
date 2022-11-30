@@ -63,6 +63,7 @@
     -webkit-overflow-scrolling: touch;
   }
 
-  body {
-    padding:0;
+  .recipe_list_item {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
   }

@@ -9,19 +9,16 @@ const recipes =
 "bolognese" : "Meaty tomato good with spaghetti"
 }
 
-app.get('/', function(req,res){
-    res.render('./index.html');
-    //__dirname should resolve to the project folder.
-  });
-  
+app.get('/recipe/:recipe', function(req, resp){
+    const recipe = req.params.recipe;
+    let instructions = recipes[recipe];
+    resp.send(instructions);
+
+})
 
 app.get('/recipes', function(req, resp){
-    const recipe = req.query.recipe;
-    let instructions = recipes[recipe];
-    resp.send(`<h1>This is a recipe for ${recipe}</h1><p>${instructions}</p>`);
+    let recipeKeys = Object.keys(recipes);
+    resp.send(recipeKeys);
 })
-var server = app.listen(3000, function (){
-    var host = server.address().address;
-    var port = server.address().port;
-    console.log('Example app listening at http://%s:%s', host, port);
-  });
+
+app.listen(8090);
