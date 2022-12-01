@@ -1,6 +1,8 @@
 const express = require('express');
 const app = express();
 const path = require('path');
+const hostname = '127.0.0.1';
+const port = 8090;
 app.use(express.static(path.join(__dirname, 'client')));
 
 const recipes =
@@ -21,4 +23,6 @@ app.get('/recipes', function(req, resp){
     resp.send(recipeKeys);
 })
 
-app.listen(8090);
+app.listen(port, hostname, () => {
+    console.log(`Server running at http://${hostname}:${port}/ -- yippee!`);
+  });
