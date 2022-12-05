@@ -1,8 +1,10 @@
 const express = require('express');
 const app = express();
 app.use(express.static('client'));
+var bodyParser = require('body-parser');
+app.use(bodyParser.json());
 
-const recipes =
+let recipes =
 {
 "carbonara": "Creamy sauce cheese good with penne",
 "bolognese" : "Meaty tomato good with spaghetti"
@@ -18,6 +20,13 @@ app.get('/recipe/:recipe', function(req, resp){
 app.get('/recipes', function(req, resp){
     let recipeKeys = Object.keys(recipes);
     resp.send(recipeKeys);
+})
+
+app.post("/recipe/new", function(req,resp){
+    let key = req.body.key;
+    let instructions = req.body.instructions;
+    recipes[key] = instructions;
+
 })
 
 app.listen(8090);
