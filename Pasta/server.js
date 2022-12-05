@@ -1,8 +1,12 @@
 const express = require('express');
 const app = express();
-app.use(express.static('client'));
+
 var bodyParser = require('body-parser');
 app.use(bodyParser.json());
+const path = require('path');
+const hostname = '127.0.0.1';
+const port = 8090;
+app.use(express.static(path.join(__dirname, 'client')));
 
 let recipes =
 {
@@ -29,4 +33,7 @@ app.post("/recipe/new", function(req,resp){
 
 })
 
-app.listen(8090);
+
+app.listen(port, hostname, () => {
+    console.log(`Server running at http://${hostname}:${port}/ -- yippee!`);
+  });
