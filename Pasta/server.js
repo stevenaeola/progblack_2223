@@ -1,38 +1,7 @@
-const express = require('express');
-const app = express();
+const app = require("./app.js")
 
-var bodyParser = require('body-parser');
-app.use(bodyParser.json());
-const path = require('path');
 const hostname = '127.0.0.1';
 const port = 8090;
-app.use(express.static(path.join(__dirname, 'client')));
-
-let recipes =
-{
-"carbonara": "Creamy sauce cheese good with penne",
-"bolognese" : "Meaty tomato good with spaghetti"
-}
-
-app.get('/recipe/:recipe', function(req, resp){
-    const recipe = req.params.recipe;
-    let instructions = recipes[recipe];
-    resp.send(instructions);
-
-})
-
-app.get('/recipes', function(req, resp){
-    let recipeKeys = Object.keys(recipes);
-    resp.send(recipeKeys);
-})
-
-app.post("/recipe/new", function(req,resp){
-    let key = req.body.key;
-    let instructions = req.body.instructions;
-    recipes[key] = instructions;
-
-})
-
 
 app.listen(port, hostname, () => {
     console.log(`Server running at http://${hostname}:${port}/ -- yippee!`);
