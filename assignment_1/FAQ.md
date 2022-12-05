@@ -1,6 +1,14 @@
 
 # COMP1101 Programming (Black) Summative Assessment 1 FAQs
 
+## General
+
+### Can I use code from elsewhere and how should I reference it?
+
+Using pre-existing code modules on the server side is recommended. As long as it is installed properly with npm so that the dependency is included in your package.json file you don't need to do anything else.
+
+If you re-use, adapt or modify code taken from other sources (e.g. StackOverflow) then put a comment in your code pointing to the URL of the source.
+
 ## Client-side functionality criteria
 
 ### Do we need an authentication aspect, like username and password?

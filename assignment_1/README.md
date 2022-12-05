@@ -1,4 +1,4 @@
-# DRAFT COMP1101 Programming (Black) Summative Assessment 1 DRAFT
+# COMP1101 Programming (Black) Summative Assessment 1 
 
 
 ## Term 1 Programming Exercise Outline
@@ -8,9 +8,10 @@
 - Return by 23 February 2023
 - Contributes 50% of module marks
 - Includes peer review feedback which you will be allocated
+- This is an individual piece of work
 
 
-## Subject-specific Knowledge
+### Subject-specific Knowledge
 
 - Interaction between JavaScript programs and the Document Object Model (DOM)
 - Using control statements to loop and make decisions
@@ -23,14 +24,14 @@
 - A knowledge and understanding of good programming practice (for example, reuse, documentation and style)
 
 
-## Subject-Specific Skills
+### Subject-Specific Skills
 
 - an ability to realise solutions to problems as working JavaScript programs
 - an ability to apply reuse by exploiting predefined components
 - an ability to use software tools related to programming (programming environments, code management, documentation tools, etc.)
 
 
-## Key Skills
+### Key Skills
 
 - an ability to communicate technical information
 - an ability to recognise and apply the principles of abstraction and modelling
@@ -42,9 +43,11 @@
 - Construct a dynamic web site for an application of your choosing
 - Use static HTML pages loading dynamic JSON content from server via AJAX
 - Server written in nodejs to provide JSON through REST API
+- Prepare a 2 minute video demonstrating your code
+- Do a code quality review of four other submissions
 
 
-## Dynamic web site
+### Dynamic web site
 
 - Choose any application domain as long as it includes at least two kinds of entity e.g.
   - pictures
@@ -56,7 +59,7 @@
 - If you are not sure then ask me
 
 
-## Static HTML loading JSON via AJAX
+### Static HTML loading JSON via AJAX
 
 - 'Single page app': page content loaded as JSON via AJAX
 - Can have more than one page e.g. for user and admin
@@ -65,12 +68,12 @@
 - Recommend using front-end framework such as Bootstrap, Foundation
 
 
-## Message sequence chart
+#### Message sequence chart
 
 ![Message Sequence Chart showing Client server interaction with AJAX](https://www.websequencediagrams.com/cgi-bin/cdraw?lz=dGl0bGUgQ2xpZW50L3NlcnZlciBpbnRlcmFjdGlvbgoKABUGLT5TABcFOiBTdGF0aWMgcGFnZSByZXF1ZXN0CgAWBi0-AEEGOiBIVE1MCmxvb3AgZWFjaCB1c2VyIABJBwA_EER5bmFtaWMgY29udGVudABLCCAoQUpBWCkASRFKU09OAIEKCQBnCFJlbmRlcgAXBQA_CWFzAIEBBSB3aXRoaW4gRE9NCmVuZAoK&s=roundgreen)
 
 
-## Server provides JSON through a REST API
+### Server provides JSON through a REST API
 
 Each entity type (e.g. picture) has 
 
@@ -85,7 +88,7 @@ Each entity type (e.g. picture) has
 - HTTP codes should be correct: use 200, 400 or 403 (if using authentication)
 
 
-## Server written in nodejs
+### Server written in nodejs
 
 - Use npm for management
 - Make sure you use --save or --save-dev option with packages you add
@@ -120,7 +123,7 @@ Equally weighted 9% each
 - Video presentation
 
 
-## Client-side functionality criteria
+### Client-side functionality criteria
 
 - User Experience (UX): clean layout and minimal clicks/entry required
 - App complexity: entities can be listed and edited
@@ -128,7 +131,7 @@ Equally weighted 9% each
 - Staff reviewed
 
 
-## Client-side quality criteria
+### Client-side quality criteria
 
 - Standards compliant (HTML5)
 - Responsive to different viewport sizes
@@ -138,7 +141,7 @@ Equally weighted 9% each
 - Peer reviewed; staff moderated
 
 
-## Server-side functionality criteria
+### Server-side functionality criteria
 
 - More than one entity type, with relationships
 - REST API provides each entity with appropriate GET/POST methods
@@ -147,7 +150,7 @@ Equally weighted 9% each
 - Staff reviewed
 
 
-## Server-side quality criteria
+### Server-side quality criteria
 
 - Successful eslint (run with `npm run pretest`)
 - Successful jest tests with good coverage (run with `npm test`)
