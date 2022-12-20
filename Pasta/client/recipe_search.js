@@ -16,7 +16,7 @@ async function listRecipes(){
     }
     recipeListElt.innerHTML = list;
     listItems = document.querySelectorAll(".recipe_list_item");
-    for (let listItem of listItems){
+    for (let listItem of listItems) {
         listItem.addEventListener("click", (event) => loadRecipe(event.target.textContent))
     }
     
@@ -29,4 +29,14 @@ async function loadRecipe(recipeKey){
     document.getElementById("recipe_results").innerHTML=recipeContent;
 }
 
+async function addRecipes(){
+
+let recipeForm = document.getElementById("recipe-submit");
+recipeForm.addEventListener('submit'){
+    let data = new FormData(recipeForm);
+    alert(data);
+}
+}
+
 document.addEventListener("DOMContentLoaded", listRecipes);
+document.addEventListener("DOMContentLoaded", addRecipes);
