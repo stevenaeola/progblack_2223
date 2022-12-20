@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 
 'use strict';
 
@@ -30,7 +31,7 @@ describe('Test the recipes service', () => {
     });
 
     test('POST /recipe/new', () => {
-        const params = {'key': 'santa', 'instructions': 'Mix holly, cranberries and carrots for an unresonably long time and dress in ridiculous clothes'};
+        const params = { key: 'santa', instructions: 'Mix holly, cranberries and carrots for an unresonably long time and dress in ridiculous clothes' };
         return request(app)
         .post('/recipe/new')
         .send(params)
