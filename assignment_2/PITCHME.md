@@ -154,7 +154,7 @@ The learning log should have a maximum total word count of 1500 words, as measur
 
 Based on your experience, write a Markdown document which explains to somebody else how to master the skill you have been learning. 
 
-You don't need to explain the details, but identify znd pull together useful resources.
+You don't need to explain the details, but identify and pull together useful resources.
 
 ---
 
