@@ -142,7 +142,7 @@ You don't need to explain the details, but identify and pull together useful res
 
 A presentation mark (10%) will be awarded on the basis of
 
-  - formatting in （[GitHub flavored](https://GitHub.GitHub.com/gfm/)) Markdown
+  - formatting in ([GitHub flavored](https://GitHub.GitHub.com/gfm/)) Markdown
   - choice of media (images, video)
   - clear writing style appropriate for audience
 
