@@ -27,7 +27,7 @@
 - an ability to plan and work independently
 
 
-## Task summary
+# Task summary
 
 - Choose a skill to develop
 - Choose a collaborative project to contribute to e.g.
@@ -97,6 +97,8 @@ For example
 - Start a new project
 - As long as it is collaborative
 
+# Requirements and Assessment Criteria
+
 
 ## Learning log
 
@@ -150,7 +152,7 @@ A presentation mark (10%) will be awarded on the basis of
  The guide for learners should have a maximum total word count of 1500 words, as measured by the [Microsoft VS Code Word Count plugin](https://marketplace.visualstudio.com/items?itemName=ms-vscode.wordcount) 
 
 
-## Submission
+# Submission
 
 - Your learning log and your guide for learners should be held within a single private repository on GitHub. 
 - In the repository you should include a README file including a link to the repository on GitHub. 

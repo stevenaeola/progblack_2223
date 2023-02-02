@@ -32,7 +32,7 @@
 
 ---
 
-## Task summary
+# Task summary
 
 - Choose a skill to develop
 - Choose a collaborative project to contribute to e.g.
@@ -119,6 +119,9 @@ For example
 - As long as it is collaborative
 
 ---
+# Requirements and Assessment Criteria
+
+---
 
 ## Learning log
 
@@ -179,7 +182,7 @@ A presentation mark (10%) will be awarded on the basis of
 
 ---
 
-## Submission
+# Submission
 
 - Your learning log and your guide for learners should be held within a single private repository on GitHub. 
 - In the repository you should include a README file including a link to the repository on GitHub. 
