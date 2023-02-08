@@ -1,5 +1,5 @@
 
-# DRAFT COMP1101 Programming (Black) Summative Assessment 2 DRAFT
+# COMP1101 Programming (Black) Summative Assessment 2
 
 
 ## Term 2 Programming Exercise Outline
@@ -140,9 +140,10 @@ You don't need to explain the details, but identify and pull together useful res
 - Background (10%): What do you need to know before starting? Include links to material to catch up. Make it clear who your target audience is
 - Learning materials (10%): Provide appropriate links to external resources with commentary
 - Evaluation (10%): How useful is the skill, compared with the effort of learning it? What similar alternatives are there?
+- Presentation (10%)
 
 
-A presentation mark (10%) will be awarded on the basis of
+The presentation mark (10%) will be awarded on the basis of
 
   - formatting in ([GitHub flavored](https://GitHub.GitHub.com/gfm/)) Markdown
   - choice of media (images, video)
